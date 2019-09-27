@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+.input-container__name {
+    display: block;
+    margin-right: 8px;
+}
+.input-container__field {
+    display: block;
+    border: solid 1px grey;
+    border-radius: 4px;
+}
+
+.input-container__field_age {
+    width: 48px;
+}
